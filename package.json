@@ -1,0 +1,14 @@
+{
+  "name": "shopify-tag-trigger-worker",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "wrangler": "^3.48.0",
+    "typescript": "^5.4.0"
+  }
+}
