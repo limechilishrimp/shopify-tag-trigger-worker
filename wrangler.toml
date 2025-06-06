@@ -1,0 +1,9 @@
+name = "shopify-tag-trigger-worker"
+main = "src/index.ts"
+compatibility_date = "2025-06-05"
+
+[vars]
+SENDGRID_API_KEY = "env:SENDGRID_API_KEY"
+SHOPIFY_API_TOKEN = "env:SHOPIFY_API_TOKEN"
+SHOPIFY_WEBHOOK_SECRET = "env:SHOPIFY_WEBHOOK_SECRET"
+LOGTAIL_TOKEN = "env:LOGTAIL_TOKEN"
